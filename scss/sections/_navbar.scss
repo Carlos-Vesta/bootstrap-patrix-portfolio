@@ -1,0 +1,17 @@
+// IMPORT MODULES
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.menu {
+    @include gradient;
+
+    li {
+        padding: 0 0.7rem; // style from mixing
+
+        a {
+            color: $white;
+            text-transform: capitalize;
+            font-weight: 600;
+        }
+    }
+}
