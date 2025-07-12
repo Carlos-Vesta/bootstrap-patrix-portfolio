@@ -89,3 +89,38 @@ IV - FONTAWESOME
         @use 'sections/services';
         @use 'sections/testimonials';
 
+
+
+####  PAGES ####
+
+- INTRO PAGE 
+    * Downloa Imges with costum colors
+        https://www.manypixels.co/gallery
+
+    * Download SVG Waves files
+        https://getwaves.io/ 
+
+    * Download Video PopUp
+    https://biati-digital.github.io/glightbox/
+    https://www.npmjs.com/package/glightbox
+
+        ** How To USe? **
+        - Download the file and extract it;
+        - Go to dist, copy the css and js folders;
+        - Past to your local directory;
+        - link the css file (.min) and js file (.min);
+        - In the link tag "HTML file" add a class "glightbox";
+        - Create a JS script under the script source:
+        
+            <script src="assets/vendors/glightbox/js/glightbox.min.js"></script>
+
+            <script type="text/javascript">
+                const lightbox = GLightbox({
+
+                    'href': 'https://youtu.be/iJKCj8uAHz8?si=_3cVve4LzRSVpKeR',
+                    'type': 'video',
+                    'source': 'youtube',
+                    'width': 900,
+                    'autoPlayVideos': 'true',
+                });
+            </script>  

@@ -1,0 +1,10 @@
+    @font-face {
+        font-family: 'Poppins', sans-serif;
+        /* Replace with your font name */
+        src: url('assets/fonts/Poppins/Poppins-Regular.ttf') format('ttf'),
+            url('assets/fonts/Poppins/Poppins-Bold.ttf') format('ttf'),
+            url('assets/fonts/Poppins/Poppins-ExtraBold.ttf') format('ttf');
+
+        font-weight: normal;
+        font-style: normal;
+    }
